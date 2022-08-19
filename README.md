@@ -1,27 +1,3 @@
-xhr.js:220          GET https://dapi.kakao.com/v3/search/book?target=title&0=%ED%95%B4%EB%A6%AC%ED%8F%AC%ED%84%B0 401 (Unauthorized)
-dispatchXhrRequest @ xhr.js:220
-xhrAdapter @ xhr.js:16
-dispatchRequest @ dispatchRequest.js:58
-request @ Axios.js:109
-Axios.<computed> @ Axios.js:131
-wrap @ bind.js:9
-bookSearch @ api.js:12
-App @ App.js:9
-renderWithHooks @ react-dom.development.js:16305
-mountIndeterminateComponent @ react-dom.development.js:20074
-beginWork @ react-dom.development.js:21587
-beginWork$1 @ react-dom.development.js:27426
-performUnitOfWork @ react-dom.development.js:26557
-workLoopSync @ react-dom.development.js:26466
-renderRootSync @ react-dom.development.js:26434
-performConcurrentWorkOnRoot @ react-dom.development.js:25738
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-localhost/:1 Uncaught (in promise) AxiosError {message: 'Request failed with status code 401', name: 'AxiosError', code: 'ERR_BAD_REQUEST', config: {…}, request: XMLHttpRequest, …}
-
-
-
 
 # Getting Started with Create React App
 
