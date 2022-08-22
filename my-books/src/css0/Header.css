@@ -1,0 +1,27 @@
+        header {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+        }
+        header .max-wrap {
+            max-width: 800px;
+            height: 40px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        header .max-wrap h1 {
+            display: flex;
+            align-items: center;
+        }
+        header .booksearch {
+            margin: 0 auto;
+            display: flex;
+        }
+        header .logo {
+            width: 40%;
+            height: 11vh;
+        }
+        
+
