@@ -1,4 +1,6 @@
 ## 헤더 참고
+scr>components>
+
 Header.js
 Header.css
 TitleImg.css
